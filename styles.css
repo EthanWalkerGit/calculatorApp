@@ -1,9 +1,10 @@
-#body{
+body{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(0, 0%, 67%);
 }
 
 
@@ -35,9 +36,10 @@
 button{
     width: 100px;
     height: 100px;
-    border-radius: 100px;
-    border: none;
-    background-color: hsl(0, 0%, 30%);
+    border-radius: 5px;
+    border: solid;
+    border-color: hsl(0, 0%, 30%);
+    background-color:  hsl(0, 0%, 20%);
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -47,17 +49,47 @@ button{
 button:hover{
     background-color: hsl(0, 0%, 40%);
 }
-
 button:active{
     background-color: hsl(0, 0%, 50%);
 }
-
 .operator-btn{
     background-color: hsl(35, 100%, 55%);
+    border: solid;
+    border-color: hsl(35, 100%, 75%);
 }
 .operator-btn:hover{
     background-color: hsl(35, 100%, 65%);
 }
 .operator-btn:hover{
     background-color: hsl(35, 100%, 75%);
+}
+.colour-btn-red{
+    background-color: hsl(0, 100%, 50%);
+    border: solid;
+    border-color: hsl(0, 100%, 70%);
+}
+.colour-btn-red:hover{
+    background-color: hsl(0, 100%, 70%);
+    border: solid;
+    border-color: hsl(0, 100%, 70%);
+}
+.colour-btn-green{
+    background-color: hsl(113, 100%, 50%);
+    border: solid;
+    border-color: hsl(113, 100%, 70%);
+}
+.colour-btn-green:hover{
+    background-color: hsl(113, 100%, 70%);
+    border: solid;
+    border-color: hsl(113, 100%, 70%);
+}
+.colour-btn-blue{
+    background-color: hsl(229, 100%, 50%);
+    border: solid;
+    border-color: hsl(229, 100%, 70%);
+}
+.colour-btn-blue:hover{
+    background-color: hsl(229, 100%, 70%);
+    border: solid;
+    border-color: hsl(229, 100%, 70%);
 }
